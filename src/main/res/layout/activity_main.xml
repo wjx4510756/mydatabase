@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/id_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name" />
+
+    <EditText
+        android:id="@+id/id_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="age"
+        android:inputType="number"
+
+        />
+
+    <EditText
+        android:id="@+id/id_homeland"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="homeland" />
+
+
+    <Button
+        android:onClick="doClick"
+        android:id="@+id/id_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:textAllCaps="false" />
+
+    <Button
+        android:onClick="doClick"
+        android:id="@+id/id_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        android:textAllCaps="false" />
+
+    <Button
+        android:onClick="doClick"
+        android:id="@+id/id_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:textAllCaps="false" />
+
+    <Button
+        android:onClick="doClick"
+        android:id="@+id/id_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="query"
+        android:textAllCaps="false" />
+
+    <ListView
+        android:id="@+id/id_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
